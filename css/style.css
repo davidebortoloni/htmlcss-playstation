@@ -8,7 +8,7 @@
     }
     .bg-white {
         background-color: white;
-    }
+    }    
     /* Bottoni */
     .btn.bg-grey,
     .btn.bg-black {
@@ -23,20 +23,17 @@
         width: 80px;
     }
     .main-menu {
+        font-size: 14px;
         font-weight: 600;
     }
     .main-menu ul {
-        display: flex;
         align-items: center;
         list-style-type: none;
         margin: 0;
     }
     .main-menu li {
         cursor: pointer;
-        padding-right: 30px;
-    }
-    #ps-logo {
-        padding-left: 0;
+        padding-right: 22px;
     }
     .main-menu i {
         vertical-align: middle;
@@ -46,6 +43,11 @@
         font-size: 12px;
         color: #999999;
     }
+    .main-menu .fa-bars,
     .main-menu .fa-search {
         font-size: 20px;
+    }
+    .main-menu .ham-menu {
+        border: 1px solid #e5e5e5;
+        color: #737373;
     }

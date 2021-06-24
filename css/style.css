@@ -1,0 +1,51 @@
+    /***** UTILITIES *****/
+    /* Colore sfondo */
+    .bg-black {
+        background-color: black;
+    }
+    .bg-grey {
+        background-color: #363636;
+    }
+    .bg-white {
+        background-color: white;
+    }
+    /* Bottoni */
+    .btn.bg-grey,
+    .btn.bg-black {
+        color: white;
+    }
+
+    /* Stilizzazione header */
+    header a {
+        text-decoration: none;
+    }
+    .topbar img {
+        width: 80px;
+    }
+    .main-menu {
+        font-weight: 600;
+    }
+    .main-menu ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+    }
+    .main-menu li {
+        cursor: pointer;
+        padding-right: 30px;
+    }
+    #ps-logo {
+        padding-left: 0;
+    }
+    .main-menu i {
+        vertical-align: middle;
+    }
+    .main-menu .fa-chevron-down {
+        margin-left: 5px;
+        font-size: 12px;
+        color: #999999;
+    }
+    .main-menu .fa-search {
+        font-size: 20px;
+    }

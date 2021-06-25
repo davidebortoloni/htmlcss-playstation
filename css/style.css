@@ -8,20 +8,29 @@
     }
     .bg-white {
         background-color: white;
-    }    
+    }   
+    .bg-orange {
+        background-color: #cd3d0f ;
+    } 
     /* Bottoni */
     .btn.bg-grey,
-    .btn.bg-black {
+    .btn.bg-black,
+    .bg-orange {
         color: white;
     }
 
-    /* Stilizzazione header */
+    /***** STILIZZAZIONE HEADER *****/
+    header {
+        z-index: 1;
+    }
     header a {
         text-decoration: none;
     }
+    /* Topbar */
     .topbar img {
         width: 80px;
     }
+    /* Main Menu */
     .main-menu {
         font-size: 14px;
         font-weight: 600;
@@ -50,4 +59,15 @@
     .main-menu .ham-menu {
         border: 1px solid #e5e5e5;
         color: #737373;
+    }
+
+    /***** STILIZZAZIONE MAIN *****/
+    /* Hero */
+    #hero {
+        position: relative;
+        top: 110px;
+        height: 580px;
+        background-image: url("../img/jumbo-bg.png");
+        background-size: cover;
+        background-position: top;
     }

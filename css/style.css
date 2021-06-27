@@ -24,6 +24,9 @@
     .bg-orange {
         background-color: #cd3d0f ;
     }
+    .bg-darkblue {
+        background-color: #161C3B;
+    }
     .bg-blue {
         background-color: #2D64E6;
     }
@@ -50,6 +53,9 @@
     .text-20 {
         font-size: 20px;
     }
+    .text-30 {
+        font-size: 30px;
+    }
     /* Titoli */
     h2 {
         font-size: 40px;
@@ -73,6 +79,9 @@
     }
     .btn.bg-superlightgrey {
         color: #0072ce;
+    }
+    .btn.bg-white {
+        color: black;
     }
 
     /***** STILIZZAZIONE HEADER *****/
@@ -174,9 +183,17 @@
         border-radius: 20px;
     }
 
-    /* Responsive */
+    /***** STILIZZAZIONE FOOTER *****/
+    
+
+    /***** RESPONSIVE *****/
     @media screen and (min-width: 768px) {
         .w-md-50 {
             width: 50%!important;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .col-150 {
+            width: 150px!important;
         }
     }

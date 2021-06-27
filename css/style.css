@@ -28,6 +28,9 @@
         background-color: #161C3B;
     }
     .bg-blue {
+        background-color: #00439C;
+    }
+    .bg-lightblue {
         background-color: #2D64E6;
     }
     /* Colore testo */
@@ -40,7 +43,7 @@
     .text-white {
         color: white;
     }
-    .text-blue {
+    .text-lightblue {
         color: #0072ce;
     }
     /* Dimensione testo */
@@ -70,7 +73,7 @@
         font-size: 21px;
     }
     /* Bottoni */
-    .btn.bg-blue,
+    .btn.bg-lightblue,
     .btn.bg-darkgrey,
     .btn.bg-superdarkgrey,
     .btn.bg-black,
@@ -128,7 +131,8 @@
     }
 
     /***** STILIZZAZIONE MAIN *****/
-    main {
+    main,
+    footer {
         position: relative;
         top: 114px;
     }
@@ -184,7 +188,30 @@
     }
 
     /***** STILIZZAZIONE FOOTER *****/
-    
+    #logo-ps-footer {
+        width: 120px;
+    }
+    #logo-sony-footer {
+        width: 150px;
+    }
+    footer ul {
+        list-style-type: none;
+    }
+    footer li {
+        margin-bottom: 12px;
+    }
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+    footer a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    footer p a {
+        color: white;
+        text-decoration: underline;
+    }
 
     /***** RESPONSIVE *****/
     @media screen and (min-width: 768px) {

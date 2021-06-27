@@ -3,11 +3,20 @@
     .bg-black {
         background-color: black;
     }
-    .bg-darkgrey {
+    .bg-superdarkgrey {
         background-color: #1F1F1F;
     }
-    .bg-grey {
+    .bg-darkgrey {
         background-color: #363636;
+    }
+    .bg-grey {
+        background-color: #727272;
+    }
+    .bg-lightgrey {
+        background-color: #bebcbb;
+    }
+    .bg-superlightgrey {
+        background-color: #d9dadc;
     }
     .bg-white {
         background-color: white;
@@ -35,6 +44,9 @@
     .text-14 {
         font-size: 14px;
     }
+    .text-18 {
+        font-size: 18px;
+    }
     .text-20 {
         font-size: 20px;
     }
@@ -53,10 +65,14 @@
     }
     /* Bottoni */
     .btn.bg-blue,
-    .btn.bg-grey,
+    .btn.bg-darkgrey,
+    .btn.bg-superdarkgrey,
     .btn.bg-black,
     .bg-orange {
         color: white;
+    }
+    .btn.bg-superlightgrey {
+        color: #0072ce;
     }
 
     /***** STILIZZAZIONE HEADER *****/

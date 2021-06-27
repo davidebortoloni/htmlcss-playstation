@@ -20,8 +20,8 @@
     <!-- Intestazione della pagina -->
     <header class="container-fluid g-0 position-fixed">
         <!-- Barra superiore -->
-        <div class="topbar bg-black text-end p-2">
-            <img src="./img/sony_logo.svg" alt="Sony Logo">
+        <div class="topbar bg-black d-flex align-items-center justify-content-end p-2">
+            <img class="h-75" src="./img/sony_logo.svg" alt="Sony Logo">
         </div>
         <!-- Barra di navigazione -->
         <div class="row align-items-center p-2 bg-white main-menu">
@@ -63,20 +63,260 @@
 
     <!-- Contenuto della pagina -->
     <main>
+
         <!-- Contenuto in evidenza -->
-        <div id="hero" class="row container-fluid align-items-end">
-            <div class="col-12 col-lg-4 p-5 text-white">
-                <img class="w-75" src="./img/returnal-hero-banner-logo.png" alt="">
-                <div class="h1 my-4">Rompi il cerchio</div>
-                <p class="my-4">
-                    Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo
-                    thriller fantascientifico, disponibile in esclusiva su PS5.
-                </p>
-                <a href="#">
-                    <div class="btn bg-orange rounded-pill">Acquista ora</div>
-                </a>
+        <section id="hero" class="container-fluid mx-0 mb-4">
+            <div class="row h-100 align-items-end px-md-5 py-5">
+                <div class="col-12 col-lg-4 text-white">
+                    <img class="w-50" src="./img/returnal-hero-banner-logo.png" alt="">
+                    <div class="h1 my-4">Rompi il cerchio</div>
+                    <p class="my-4">
+                        Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo
+                        thriller fantascientifico, disponibile in esclusiva su PS5.
+                    </p>
+                    <a href="#">
+                        <div class="btn bg-orange rounded-pill">Acquista ora</div>
+                    </a>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <!-- Giochi in risalto -->
+        <section id="featured-games" class="container-fluid mx-0">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 px-md-5 gy-3">
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nuovi prodotti -->
+        <section id="new-products" class="container-fluid mx-0">
+            <div class="title text-center mb-5">
+                <div class="text-blue text-14"><strong>PLAY HAS NO LIMITS</strong></div>
+                <h2 class="text-darkgrey">Ecco la PlayStation 5</h2>
+                <h5 class="text-grey mt-4">Tuffati in nuove possibilità di gioco completamente inaspettate</h5>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 px-md-5 align-items-center">
+                <div class="col">
+                    <h2 class="text-darkgrey">Console PlayStation 5</h2>
+                    <h5 class="text-grey my-4">Sperimenta la nuova generazione di incredibili giochi PlayStation.</h5>
+                    <a href="#">
+                        <div class="btn bg-blue rounded-pill">Acquista ora</div>
+                    </a>
+                </div>
+                <div class="col">
+                    <img class="w-100" src="./img/playstation-5-thumb.png" alt="PlayStation 5">
+                </div>
+            </div>
+            <div class="row row-cols-3 row-cols-md-5 px-md-5 text-center g-3">
+                <div class="col product active">
+                    <div class="product-img">
+                        <img class="w-md-50" src="./img/playstation-5-thumb.png" alt="PlayStation 5">
+                    </div>
+                    <div class="product-name d-none d-md-block px-lg-4">Console PS5</div>
+                    <div class="indicator"></div>
+                </div>
+                <div class="col product">
+                    <div class="product-img">
+                        <img class="w-md-50" src="./img/joypad-thumb.png" alt="JoyPad">
+                    </div>
+                    <div class="product-name d-none d-md-block px-lg-4">Controller wireless DualSense™</div>
+                    <div class="indicator"></div>
+                </div>
+                <div class="col product">
+                    <div class="product-img">
+                        <img class="w-md-50" src="./img/headset-thumb.png" alt="Cuffie">
+                    </div>
+                    <div class="product-name d-none d-md-block px-lg-4">Cuffie wireless con microfono PULSE 3™</div>
+                    <div class="indicator"></div>
+                </div>
+                <div class="col product">
+                    <div class="product-img">
+                        <img class="w-md-50" src="./img/remote-thumb.png" alt="Remote Control">
+                    </div>
+                    <div class="product-name d-none d-md-block px-lg-4">Telecomando Media</div>
+                    <div class="indicator"></div>
+                </div>
+                <div class="col product">
+                    <div class="product-img">
+                        <img class="w-md-50" src="./img/camera-thumb.jpg" alt="Camera">
+                    </div>
+                    <div class="product-name d-none d-md-block px-lg-4">Telecamera HD</div>
+                    <div class="indicator"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gioco del momento -->
+        <section id="best-game" class="container-fluid mx-0 mt-3">
+            <div class="row h-100 align-items-end px-md-5 py-5">
+                <div class="col-12 col-lg-4 text-white">
+                    <img class="w-50" src="./img/it-takes-two-logo.png" alt="">
+                    <div class="h1 my-4">Un'avventura cooperativa selvaggia ti attende</div>
+                    <p class="my-4">
+                        Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un
+                        gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.
+                    </p>
+                    <a href="#">
+                        <div class="btn bg-orange rounded-pill">Acquista ora</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nuove uscite -->
+        <section id="new-releases" class="container-fluid pb-5 mx-0 bg-darkgrey text-white">
+            <div class="row px-md-5 py-4 title">
+                <h3 class="py-1">Nuove uscite</h3>
+                <h4 class="py-1">Giochi incredibili per PS4 e PS5 disponibili ora</h4>
+            </div>
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 px-md-5 gy-5 pb-4 text-20">
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    </a>
+                    Tony Hawk's™ Pro Skater™ 1 + 2
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                    </a>
+                    Crash Bandicoot 4: It's About Time
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    </a>
+                    Tony Hawk's™ Pro Skater™ 1 + 2
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                    </a>
+                    Crash Bandicoot 4: It's About Time
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    </a>
+                    Tony Hawk's™ Pro Skater™ 1 + 2
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                    </a>
+                    Crash Bandicoot 4: It's About Time
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    </a>
+                    Tony Hawk's™ Pro Skater™ 1 + 2
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                    </a>
+                    Crash Bandicoot 4: It's About Time
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    </a>
+                    Tony Hawk's™ Pro Skater™ 1 + 2
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                    </a>
+                    Crash Bandicoot 4: It's About Time
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    </a>
+                    Tony Hawk's™ Pro Skater™ 1 + 2
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                    </a>
+                    Crash Bandicoot 4: It's About Time
+                </div>
+            </div>
+        </section>
+
+        <!-- PlayStation 4 -->
+        <section id="playstation-4" class="container-fluid mx-0">
+            <div class="title text-center mb-5 pt-5">
+                <h2 class="text-darkgrey">Esplora PlayStation® 4</h2>
+                <h5 class="text-grey mt-4">
+                    Giochi incredibili e intrattenimento senza fine.<br>
+                    Non c'è mai stato un momento migliore per giocare sulla tua PS4.
+                </h5>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 px-md-5 pb-5">
+                <div class="col">
+                    <img class="w-100" src="./img/ps4-slim-homepage-image-block.jpg" alt="playStation-4">
+                    <h2 class="text-darkgrey">PlayStation 4</h2>
+                    <h5 class="text-grey mt-4 mb-4">
+                        Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.
+                    </h5>
+                    <a href="#">
+                        <div class="btn bg-blue rounded-pill">Scopri di più</div>
+                    </a>
+                </div>
+                <div class="col">
+                    <img class="w-100" src="./img/double11-202010-tw-psvr.jpg" alt="playStation-4">
+                    <h2 class="text-darkgrey">PlayStation VR</h2>
+                    <h5 class="text-grey mt-4 mb-4">
+                        Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.
+                    </h5>
+                    <a href="#">
+                        <div class="btn bg-blue rounded-pill">Scopri di più</div>
+                    </a>
+                </div>
+                <div class="col">
+                    <img class="w-100" src="./img/dualshock-4-listing-thumb.jpg" alt="playStation-4">
+                    <h2 class="text-darkgrey">Accessori</h2>
+                    <h5 class="text-grey mt-4 mb-4">
+                        Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.
+                    </h5>
+                    <a href="#">
+                        <div class="btn bg-blue rounded-pill">Scopri di più</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- Parte finale della pagina -->

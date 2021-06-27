@@ -3,16 +3,56 @@
     .bg-black {
         background-color: black;
     }
+    .bg-darkgrey {
+        background-color: #1F1F1F;
+    }
     .bg-grey {
         background-color: #363636;
     }
     .bg-white {
         background-color: white;
-    }   
+    }
     .bg-orange {
         background-color: #cd3d0f ;
-    } 
+    }
+    .bg-blue {
+        background-color: #2D64E6;
+    }
+    /* Colore testo */
+    .text-darkgrey {
+        color: #1f1f1f;
+    }
+    .text-grey {
+        color: #727272;
+    }
+    .text-white {
+        color: white;
+    }
+    .text-blue {
+        color: #0072ce;
+    }
+    /* Dimensione testo */
+    .text-14 {
+        font-size: 14px;
+    }
+    .text-20 {
+        font-size: 20px;
+    }
+    /* Titoli */
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 34px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    h5 {
+        font-size: 21px;
+    }
     /* Bottoni */
+    .btn.bg-blue,
     .btn.bg-grey,
     .btn.bg-black,
     .bg-orange {
@@ -27,8 +67,8 @@
         text-decoration: none;
     }
     /* Topbar */
-    .topbar img {
-        width: 80px;
+    .topbar {
+        height: 40px;
     }
     /* Main Menu */
     .main-menu {
@@ -59,15 +99,68 @@
     .main-menu .ham-menu {
         border: 1px solid #e5e5e5;
         color: #737373;
+        cursor: pointer;
     }
 
     /***** STILIZZAZIONE MAIN *****/
+    main {
+        position: relative;
+        top: 114px;
+    }
     /* Hero */
     #hero {
-        position: relative;
-        top: 110px;
         height: 580px;
         background-image: url("../img/jumbo-bg.png");
         background-size: cover;
         background-position: top;
+    }
+    /* Giochi in risalto */
+    #featured-games {
+        margin-bottom: 100px;
+    }
+    #featured-games img {
+        width: 100%;
+        border-radius: 20px;
+    }
+    /* Nuovi prodotti */
+    #new-products .product {
+        cursor: pointer;
+    }
+    #new-products .product-img img {
+        width: 100%;
+    }
+    #new-products .product-name {
+        margin: 20px 0;
+    }
+    #new-products .product:not([class*="active"]) {
+        filter: opacity(.5);
+    }
+    #new-products .product:not([class*="active"]):hover {
+        filter: opacity(1);
+    }
+    #new-products .product.active .indicator {
+        content: "";
+        width: 90%;
+        height: 2px;
+        background-color: #0072CE;
+        margin: 0 auto;
+    }
+    /* Gioco del momento */
+    #best-game {
+        height: 580px;
+        background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+        background-size: cover;
+        background-position: top;
+    }
+    /* Nuove uscite */
+    #new-releases img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    /* Responsive */
+    @media screen and (min-width: 768px) {
+        .w-md-50 {
+            width: 50%!important;
+        }
     }
